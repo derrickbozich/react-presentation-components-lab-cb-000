@@ -3,7 +3,7 @@ import React, { Component} from 'react';
 
 const SimplerComponent = ({handleClick}) => {
 
-  return <div onClick={handleClick()}>Yo</div>
+  return <div>Yo</div>
 }
 
 export default SimplerComponent
