@@ -1,7 +1,7 @@
 // Code SimplerComponent Here
 import React, { Component} from 'react';
 
-SimplerComponent = () => {
+function SimplerComponent() {
   return null
 }
 
