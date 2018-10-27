@@ -1,9 +1,9 @@
 // Code SimplerComponent Here
 import React, { Component} from 'react';
 
-const SimplerComponent = ({handleClick}) => {
+const SimplerComponent = (props) => {
 
-  return <div onClick={handleClick()}>Yo</div>
+  return <div onClick={props.handleClick}>Yo</div>
 }
 
 export default SimplerComponent
