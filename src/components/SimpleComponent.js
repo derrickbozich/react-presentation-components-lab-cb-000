@@ -19,7 +19,7 @@ export default class SimpleComponent extends Component {
 
   render(){
     return(
-      <div onClick={this.handleClick} className="simple-component">{this.state.mood}</div>
+      null
     )
   }
 
