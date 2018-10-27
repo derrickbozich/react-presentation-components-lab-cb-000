@@ -9,7 +9,7 @@ import SimplerComponent from './components/SimplerComponent';
 ReactDOM.render(
   <div>
     <SimpleComponent />
-    <SimplerComponent handleClick={onClick={() => "Oops, I did it again!" } />
+    <SimplerComponent handleClick={() => "Oops, I did it again!" } />
   </div>,
   document.getElementById('root')
 );
