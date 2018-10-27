@@ -1,7 +1,7 @@
 // Code SimplerComponent Here
 import React, { Component} from 'react';
 
-const SimplerComponent = () => {
+const SimplerComponent = ({handleClick}) => {
   return null
 }
 
