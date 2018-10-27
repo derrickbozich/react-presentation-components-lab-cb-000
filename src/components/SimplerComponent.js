@@ -2,7 +2,7 @@
 import React, { Component} from 'react';
 
 const SimplerComponent = ({handleClick}) => {
-  return null
+  return <div>I am just happy</div>
 }
 
 export default SimplerComponent
